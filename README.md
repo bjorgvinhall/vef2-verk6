@@ -2,6 +2,12 @@
 
 Verkefni 6 snýst um að setja upp Next.js vef sem [nýtir vefþjónustu úr verkefni 4](https://github.com/vefforritun/vef2-2019-v4-synilausn) til að birta verkefnalista.
 
+## Verkefnið keyrandi á vefnum
+Hér er hægt að skoða verkefnið mitt, það tekur smá stund fyrir verkefnið að byrja að keyra eftir að þið opnið linkinn
+
+* https://bjorgvin-v6.herokuapp.com/ 
+
+
 ## Virkni
 
 Birta skal á forsíðu öll verkefni frá vefþjónustu. Hægt er að merkja hvert verkefni sem klárað eða ekki á forsíðu. Fyrir ofan lista er takki sem breytir því hvort kláruð verkefni séu sýnd eða ekki (kall í `/?completed=true`). Ef smellt er á titil verkefnis er opnuð síða fyrir það verkefni eftir `id` á `/:id`. Ef verkefni hefur dagsetningu sem klára ætti fyrir er hún birt við hliðina. Breyting var gerð á virkni í vefþjónustu þ.a. ekki er raðað eftir `position` heldur `created`.
